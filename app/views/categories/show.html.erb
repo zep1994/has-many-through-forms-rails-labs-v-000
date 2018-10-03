@@ -1,6 +1,6 @@
 <h1><%= @category.name %></h1>
 
-<ul> 
+<ul>
   <% @category.post.each do |post| %>
     <li><%= link_to.title, post %></li>
   <% end %>
